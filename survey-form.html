@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="css/styles_survey.css">
+<main id="main">
+    <div id="head">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking time to fill this form</p>
+    </div>
+    <div id="myform">
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="Enter your Email">
+            <label for="number-label" id="number-label">Age</label>
+            <input type="number" id="number" min="1" max="100" placeholder="Age">
+            <div id="recommendation">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label>
+                    <input type="radio" name="user-recommend" id="" value="definetely" checked> Definitely
+                </label><br>
+                <label>
+                    <input type="radio" name="user-recommend" id="" value="may-be"> May be
+                </label><br>
+                <label>
+                    <input type="radio" name="user-recommend" id="" value="not-sure"> Not sure
+                </label><br>
+            </div>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select name="role" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="">Student</option>
+                <option value="">Full time job</option>
+                <option value="">Full time Learner</option>
+                <option value="">Prefer not to say</option>
+                <option value="">Other</option>
+            </select>
+            <div id="checkboxes">
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="front-end projects"> Front-end Projects
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="back-end projects"> Back-end Projects
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="data visualisation"> Data Visualisation
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="challenges"> Challenges
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="open source community"> Open Source
+                    Community
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="gitter help rooms"> Gitter help rooms
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="videos"> Videos
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="city meetups"> City Meetups
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="wiki"> Wiki
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="forum"> Forum
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="skills" id="skills" value="additional courses"> Additional Courses
+                </label><br>
+            </div>
+            <p>Any Comments or suggestions</p>
+            <label for="comments"></label>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</main>

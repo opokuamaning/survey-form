@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+
+    background-image: url("../images/survey-main-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    max-width: 50%;
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+#head {
+    padding: 20px;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#myform {
+    padding: 40px;
+    background-color: #272645;
+    border-radius: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=textarea],
+select {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 12px 20px;
+}
+input[type=textarea]{
+    min-height: 100px;
+}
+::placeholder{
+    font-size: 15px;
+}
+#checkboxes > label > input{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+label {
+    font-size: 20px;
+}
+
+#recommendation > p {
+    font-size: 20px;
+}
+#recommendation{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#dropdown{
+    padding-top: 10px;
+}
+#submit{
+    width: 100%;
+    background-color: darkcyan;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
